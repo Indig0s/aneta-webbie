@@ -97,7 +97,6 @@ body {
   font-weight: 300;
   width: 20%;
   font-size: 1.2em;
-  /* padding: 0 4em; */
 }
 .intro__head {
   font-size: 1.3em;
@@ -108,4 +107,53 @@ body {
 .para {
   align-self: center;
   width: 70%;
+}
+.skills__head {
+  font-size: 4em;
+  color: #54be90;
+  margin-top: 1.5em;
+}
+.skills {
+  justify-content: center;
+  align-items: center;
+}
+.skillset__list {
+  width: 60%;
+}
+.skills-bar {
+  justify-content: space-between;
+  background-color: #54be90;
+  margin: 1.5% 0;
+  color: #444;
+  height: 3em;
+}
+.skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #393939;
+  margin: 0 -2.1%;
+  width: 20%;
+  color: white;
+  font-size: 1.2em;
+}
+.perc {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #ebebeb;
+  margin: 0 -2.1%;
+  padding: 0 2%;
+}
+.s50 {
+  width: 38%;
+}
+.s60 {
+  width: 29.66%;
+}
+.s70 {
+  width: 21.33%;
+}
+.s80 {
+  width: 13%;
 }
