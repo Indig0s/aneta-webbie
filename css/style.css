@@ -67,3 +67,45 @@ body {
 .head-sec {
   margin-top: -0.5em;
 }
+.intro {
+  background-color: #ebebeb;
+}
+.intro__description {
+  align-self: center;
+  text-align: center;
+  font-size: 1.5em;
+  margin: 3.5em;
+  z-index: 1;
+}
+.intro__paras {
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  background-color: #232323;
+  color: white;
+  padding-bottom: 2em;
+}
+.circle {
+  width: 10vw;
+  height: 10vw;
+  background-color: #ebebeb;
+  align-self: center;
+  border-radius: 50%;
+  margin-top: -5vw;
+}
+.columni {
+  font-weight: 300;
+  width: 20%;
+  font-size: 1.2em;
+  /* padding: 0 4em; */
+}
+.intro__head {
+  font-size: 1.3em;
+  margin-top: 1.5em;
+  font-weight: 900;
+  color: #54be90;
+}
+.para {
+  align-self: center;
+  width: 70%;
+}
