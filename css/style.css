@@ -29,7 +29,7 @@ body {
   color: white;
   text-align: center;
   margin-top: 6%;
-  scroll-margin-top: 5rem;
+  scroll-margin-top: 6em;
   font-size: 2em;
 }
 .nav-item {
@@ -225,4 +225,27 @@ body {
   width: 40%;
   border-radius: 5px;
   box-shadow: 0 4px 12px black;
+}
+.contact__button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #232323;
+}
+.findme {
+  align-items: center;
+  background-color: #232323;
+  padding: 2em;
+}
+.findme__head {
+  font-weight: 900;
+  color: white;
+}
+.findme__icons {
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 2em;
+}
+.findme__icon {
+  filter: invert();
+  width: 5em;
 }
