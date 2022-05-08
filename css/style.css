@@ -157,3 +157,24 @@ body {
 .s80 {
   width: 13%;
 }
+.portfolio {
+  background-color: #54be90;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio__head {
+  margin-top: 1.5em;
+  font-size: 4em;
+  color: white;
+}
+.cards {
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 4em;
+}
+.card {
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  margin: 0.5em;
+}
